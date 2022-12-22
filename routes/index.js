@@ -6,6 +6,12 @@ const https = require("https");
 
 /* DynamicDNS Logic. */
 router.get('/', function (req, res, next) {
+    if(!req.headers.authorization){
+        res.json({
+            ERROR: "Basic Auth not included. SELF DESTRUCT SEQUENCE INITIATED!"
+        });
+        return;
+    }
     const basicAuth = (req.headers.authorization.split(' '))[1]
     const [username, password] = new Buffer.from(basicAuth, 'base64').toString('utf8').split(':');
 
