@@ -4,7 +4,7 @@ Quite a simple concept, a node express app that acts like middleware to interfac
 
 ## How to use?
 
-Place a get request to the app with basic auth which should be an authorised account that can access the HestiaCP API. Include the required query parameters listed below.
+Place a GET request to the app with basic auth which should be an authorised account that can access the HestiaCP API. Include the required query parameters listed below.
 
 ## Supported Query Parameters
 
