@@ -27,3 +27,7 @@ Place a GET request to the app with basic auth which should be an authorised acc
 
 ### Example: 
 https://appdomain.com?hostname=hestiaserver.com&port=8083&user=test&domain=test&id=28&record=dynamic&type=A
+
+### Notes:
+
+Remember to include localhost or whatever ip you run the app from in the API whitelist inside the settings for HestiaCP.
