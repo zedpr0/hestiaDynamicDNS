@@ -20,7 +20,7 @@ Place a GET request to the app with basic auth which should be an authorised acc
 
 ### Optional:
 
-- ip="value for the dns record, will try to get record from header, will throw error if cant identify dns"
+- ip="value for the dns record, will try to get record from header, will throw error if cant identify IP address"
 - priority="Priority of dns record, defaults to empty string"
 - restartDNSServer="option to restart dns server, defaults to yes"
 - ttl="Time to live for the record, defaults for 60 seconds"
