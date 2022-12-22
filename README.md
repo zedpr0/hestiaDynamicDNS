@@ -1,4 +1,4 @@
-# HestiaCP Dynamic IP Updater
+# HestiaCP Dynamic DNS Updater
 
 Quite a simple concept, a node express app that acts like middleware to interface with your HestiaCP server and pass along the query parameters to the HestiaCP API. So that you can update a dns record in your server by running a GET request.
 
